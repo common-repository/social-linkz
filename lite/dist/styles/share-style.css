@@ -1,0 +1,473 @@
+/* General
+/************************************************************/
+.social-linkz-buttons {
+    position: relative;
+}
+.social-linkz-buttons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-linkz-columns.social-linkz-has-total-share-count-before .social-linkz-buttons-wrapper {
+    margin-left: 50px;
+}
+.social-linkz-columns.social-linkz-has-total-share-count-after .social-linkz-buttons-wrapper {
+    margin-right: 50px;
+}
+
+/* Social Network Buttons
+/************************************************************/
+body a.social-linkz-button {
+    display: inline-flex;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px 10px 10px 0px;
+    padding: 0px;
+    font-size: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    border: none;
+    --social-linkz-button-color: #333;
+}
+.social-linkz-button * {
+    pointer-events: none;
+}
+.social-linkz-button-block {
+    display: inline-flex;
+    align-items: center;
+    background: #333;
+    background: var(--social-linkz-button-color);
+}
+.social-linkz-button-wrapper {
+    display: inline-flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+}
+.social-linkz-button:not(.social-linkz-hover-swap):hover .social-linkz-button-wrapper>span:not(.social-linkz-inverse) {
+    box-shadow: inset 0 0 0 50px rgba(0,0,0,0.1);
+}
+.social-linkz-button:not(.social-linkz-hover-swap):hover .social-linkz-button-wrapper>span.social-linkz-inverse {
+    filter: brightness(0.9);
+}
+
+/* button icon */
+.social-linkz-button-icon {
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.social-linkz-button-icon > * {
+    height: 50%;
+    margin: 0 auto;
+}
+.social-linkz-button-icon path {
+    fill: currentColor;
+}
+
+/* button share count */
+.social-linkz-button-share-count {
+    display: none;
+    font-size: 12px;
+    align-items: center;
+}
+.social-linkz-button.social-linkz-share-count:hover svg {
+    display: none;
+}
+.social-linkz-button.social-linkz-share-count:hover .social-linkz-button-share-count {
+    display: flex;
+}
+
+/* button label */
+.social-linkz-button-label {
+    color: #fff;
+    height: 100%;
+    box-sizing: border-box;
+    flex-grow: 1;
+    padding: 0px 15px 0px 0px;
+    overflow: hidden;
+}
+.social-linkz-button-label-wrapper {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.social-linkz-button-icon.social-linkz-inverse + .social-linkz-button-label:not(.social-linkz-inverse), .social-linkz-button-icon:not(.social-linkz-inverse) + .social-linkz-button-label.social-linkz-inverse, .social-linkz-button-icon.social-linkz-border + .social-linkz-button-label.social-linkz-inverse {
+    padding-left: 10px;
+}
+
+/* Social Network Defaults
+/************************************************************/
+.social-linkz-button.twitter {
+    --social-linkz-button-color: #000;
+}
+.social-linkz-button.facebook {
+    --social-linkz-button-color: #3b5998;
+}
+.social-linkz-button.linkedin {
+    --social-linkz-button-color: #0077B5;
+}
+.social-linkz-button.pinterest {
+    --social-linkz-button-color: #C92228;
+}
+.social-linkz-button.buffer {
+    --social-linkz-button-color: #323b43;
+}
+.social-linkz-button.reddit {
+    --social-linkz-button-color: #ff4500;
+}
+.social-linkz-button.hackernews {
+    --social-linkz-button-color: #F0652F;
+}
+.social-linkz-button.pocket {
+    --social-linkz-button-color: #ef4056;
+}
+.social-linkz-button.whatsapp {
+    --social-linkz-button-color: #25d366;
+}
+.social-linkz-button.tumblr {
+    --social-linkz-button-color: #35465c;
+}
+.social-linkz-button.vkontakte {
+    --social-linkz-button-color: #45668e;
+}
+.social-linkz-button.xing {
+    --social-linkz-button-color: #026466;
+}
+.social-linkz-button.flipboard {
+    --social-linkz-button-color: #e12828;
+}
+.social-linkz-button.mix {
+    --social-linkz-button-color: #fd8235;
+}
+.social-linkz-button.yummly {
+    --social-linkz-button-color: #e16120;
+}
+.social-linkz-button.sms {
+    --social-linkz-button-color: #218AFF;
+}
+.social-linkz-button.email {
+    --social-linkz-button-color: #319324;
+}
+.social-linkz-button.print {
+    --social-linkz-button-color: #d34836;
+}
+.social-linkz-button.\35 00px {
+    --social-linkz-button-color: #0099E5;
+}
+.social-linkz-button.bandcamp {
+    --social-linkz-button-color: #408294;
+}
+.social-linkz-button.behance {
+    --social-linkz-button-color: #1769FF;
+}
+.social-linkz-button.bitbucket {
+    --social-linkz-button-color: #0052CC;
+}
+.social-linkz-button.copy {
+    --social-linkz-button-color: #816B5B;
+}
+.social-linkz-button.deviantart {
+    --social-linkz-button-color: #05CC47;
+}
+.social-linkz-button.discord {
+    --social-linkz-button-color: #7289da;
+}
+.social-linkz-button.dribbble {
+    --social-linkz-button-color: #EA4C89;
+}
+.social-linkz-button.dropbox {
+    --social-linkz-button-color: #0061FF;
+}
+.social-linkz-button.flickr {
+    --social-linkz-button-color: #0063DC;
+}
+.social-linkz-button.foursquare {
+    --social-linkz-button-color: #F94877;
+}
+.social-linkz-button.github {
+    --social-linkz-button-color: #181717;
+}
+.social-linkz-button.goodreads {
+    --social-linkz-button-color: #553b08;
+}
+.social-linkz-button.houzz {
+    --social-linkz-button-color: #4DBC15;
+}
+.social-linkz-button.instagram {
+    --social-linkz-button-color: #E4405F;
+}
+.social-linkz-button.jsfiddle {
+    --social-linkz-button-color: #0084FF;
+}
+.social-linkz-button.lastfm {
+    --social-linkz-button-color: #D51007;
+}
+.social-linkz-button.line {
+    --social-linkz-button-color: #00B900;
+}
+.social-linkz-button.mastodon {
+    --social-linkz-button-color: #6364FF;
+}
+.social-linkz-button.messenger {
+    --social-linkz-button-color: #0078FF;
+}
+.social-linkz-button.mixcloud {
+    --social-linkz-button-color: #314359;
+}
+.social-linkz-button.phone {
+    --social-linkz-button-color: #512DA8;
+}
+.social-linkz-button.rss {
+    --social-linkz-button-color: #FFA500;
+}
+.social-linkz-button.share {
+    --social-linkz-button-color: #2A2A2C;
+}
+.social-linkz-button.skype {
+    --social-linkz-button-color: #00AFF0;
+}
+.social-linkz-button.snapchat {
+    --social-linkz-button-color: #FFFC00;
+}
+.social-linkz-button.soundcloud {
+    --social-linkz-button-color: #FF3300;
+}
+.social-linkz-button.spotify {
+    --social-linkz-button-color: #1ED760;
+}
+.social-linkz-button.stackoverflow {
+    --social-linkz-button-color: #FE7A16;
+}
+.social-linkz-button.subscribe {
+    --social-linkz-button-color: #7A5189;
+}
+.social-linkz-button.telegram {
+    --social-linkz-button-color: #0088cc;
+}
+.social-linkz-button.tripadvisor {
+    --social-linkz-button-color: #34E0A1;
+}
+.social-linkz-button.vimeo {
+    --social-linkz-button-color: #1AB7EA;
+}
+.social-linkz-button.wordpress {
+    --social-linkz-button-color: #21759B;
+}
+.social-linkz-button.yelp {
+    --social-linkz-button-color: #D32323;
+}
+.social-linkz-button.youtube {
+    --social-linkz-button-color: #FF0000;
+}
+.social-linkz-button.angellist, .social-linkz-button.applemusic, .social-linkz-button.codepen, .social-linkz-button.digg, .social-linkz-button.steam, .social-linkz-button.threads, .social-linkz-button.tiktok {
+    --social-linkz-button-color: #000;
+}
+
+/* Button Styles
+/************************************************************/
+.social-linkz-border {
+    border: 2px solid var(--social-linkz-button-color);
+}
+body .social-linkz-button .social-linkz-button-block.social-linkz-inverse, body .social-linkz-button:hover .social-linkz-button-block.social-linkz-inverse, body a.social-linkz-button.social-linkz-hover-swap .social-linkz-button-block.social-linkz-button-wrapper {
+    background: transparent;
+    color: var(--social-linkz-button-color);
+}
+
+/* button layout */
+.social-linkz-1-col .social-linkz-buttons-wrapper > a {
+    flex-basis: 100%;
+    margin-right: 0;
+}
+.social-linkz-2-col .social-linkz-buttons-wrapper > a {
+    flex-basis: calc(50% - 5px);
+}
+.social-linkz-2-col .social-linkz-buttons-wrapper > a:nth-of-type(2n) {
+    margin-right: 0;
+}
+.social-linkz-3-col .social-linkz-buttons-wrapper > a {
+    flex-basis: calc(33.333333% - 6.666666px);
+}
+.social-linkz-3-col .social-linkz-buttons-wrapper > a:nth-of-type(3n) {
+    margin-right: 0;
+}
+.social-linkz-4-col .social-linkz-buttons-wrapper > a {
+    flex-basis: calc(25% - 7.5px);
+}
+.social-linkz-4-col .social-linkz-buttons-wrapper > a:nth-of-type(4n) {
+    margin-right: 0;
+}
+.social-linkz-5-col .social-linkz-buttons-wrapper > a {
+    flex-basis: calc(20% - 8px);
+}
+.social-linkz-5-col .social-linkz-buttons-wrapper > a:nth-of-type(5n) {
+    margin-right: 0;
+}
+.social-linkz-6-col .social-linkz-buttons-wrapper > a {
+    flex-basis: calc(16.666666% - 8.333333px);
+}
+.social-linkz-6-col .social-linkz-buttons-wrapper > a:nth-of-type(6n) {
+    margin-right: 0;
+}
+
+/* button size */
+.social-linkz-columns.small.social-linkz-has-total-share-count-before .social-linkz-buttons-wrapper {
+    margin-left: 40px;
+}
+.social-linkz-columns.small.social-linkz-has-total-share-count-after .social-linkz-buttons-wrapper {
+    margin-right: 40px;
+}
+.social-linkz-columns.large.social-linkz-has-total-share-count-before .social-linkz-buttons-wrapper {
+    margin-left: 60px;
+}
+.social-linkz-columns.large.social-linkz-has-total-share-count-after .social-linkz-buttons-wrapper {
+    margin-right: 60px;
+}
+.social-linkz-buttons.small .social-linkz-button {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+.social-linkz-buttons.small .social-linkz-button-icon {
+    height: 30px;
+    width: 30px;
+    min-width: 30px;
+}
+.social-linkz-buttons.small .social-linkz-button-share-count {
+    font-size: 10px;
+}
+.social-linkz-buttons.large .social-linkz-button {
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+}
+.social-linkz-buttons.large .social-linkz-button-icon {
+    height: 50px;
+    width: 50px;
+    min-width: 50px;
+}
+.social-linkz-buttons.large .social-linkz-button-share-count {
+    font-size: 16px;
+}
+
+/* button shape */
+.social-linkz-rounded {
+    border-radius: 5px;
+}
+.social-linkz-rounded .social-linkz-button-label {
+    border-radius: 0px 5px 5px 0px;
+}
+.social-linkz-circular {
+    border-radius: 50px;
+}
+.social-linkz-circular .social-linkz-button-label {
+    border-radius: 0px 50px 50px 0px;
+}
+
+/* button alignment */
+.social-linkz-align-right {
+    justify-content: flex-end;
+}
+.social-linkz-align-right .social-linkz-button {
+    margin: 0px 0px 10px 10px;
+}
+.social-linkz-align-center {
+    justify-content: center;
+}
+.social-linkz-align-center .social-linkz-button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Total Share Count Box
+/************************************************************/
+.social-linkz-total-share-count {
+    font-size: 15px;
+    line-height: normal;
+    text-align: center;
+    display: inline-table;
+    height: 40px;
+    width: 40px;
+    margin: 0px 0px 10px 0px;
+}
+.social-linkz-total-share-count-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.social-linkz-total-share-count-amount {
+    font-weight: bold;
+}
+.social-linkz-total-share-count-text {
+    font-size: 8px;
+    line-height: 11px;
+}
+.social-linkz-columns .social-linkz-total-share-count {
+    position: absolute;
+    right: 0;
+    margin: 0px !important;
+}
+.social-linkz-columns.social-linkz-has-total-share-count-before .social-linkz-total-share-count {
+    right: unset;
+    left: 0;
+}
+
+/* button sizes */
+.social-linkz-buttons.small .social-linkz-total-share-count {
+    height: 30px;
+    width: 30px;
+    font-size: 13px;
+}
+.social-linkz-buttons.small .social-linkz-total-share-count-text {
+    font-size: 7px;
+    line-height: 10px;
+}
+.social-linkz-buttons.large .social-linkz-total-share-count {
+    height: 50px;
+    width: 50px;
+    font-size: 19px;
+}
+.social-linkz-buttons.large .social-linkz-total-share-count-text {
+    font-size: 9px;
+    line-height: 12px;
+}
+
+/* Inline Content
+/************************************************************/
+.social-linkz-inline {
+    margin-bottom: 10px;
+}
+.social-linkz-inline-below {
+    margin-top: 20px;
+}
+.social-linkz-inline-cta {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Floating Bar
+/************************************************************/
+.social-linkz-floating {
+    position: fixed;
+    top: 25%;
+    left: 5px;
+    z-index: 999;
+    height: 75%;
+}
+.social-linkz-floating .social-linkz-buttons-wrapper {
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Misc
+/************************************************************/
+.social-linkz-hide {
+    display: none;
+}
+@media print {
+    .social-linkz-no-print, .social-linkz-no-print * {
+        display: none !important;
+    }
+}
+.wp-block {} /* fix for enqueuing in fullsite editor iframe

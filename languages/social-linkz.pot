@@ -1,0 +1,503 @@
+# Copyright (C) 2024 KaizenCoders
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Linkz 1.8.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/social-linkz\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-14T08:59:30+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: social-linkz\n"
+
+#. Plugin Name of the plugin
+#: lite/includes/Admin.php:153
+#: lite/includes/Helper.php:484
+msgid "Social Linkz"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://kaizencoders.com/social-linkz"
+msgstr ""
+
+#. Description of the plugin
+msgid "Lightweight and fast social media sharing plugin"
+msgstr ""
+
+#. Author of the plugin
+msgid "KaizenCoders"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://kaizencoders.com"
+msgstr ""
+
+#: lite/includes/Admin.php:156
+#: lite/includes/Admin.php:157
+msgid "Tools"
+msgstr ""
+
+#. Translators: 1. WordPress URL, 2. Social Linkz Plugin Version, 3. KaizenCoders Website URL.
+#: lite/includes/Admin.php:344
+msgid "<span id=\"\">Thank you for creating with <a href=\"%1$s\" target=\"_blank\">WordPress</a> | Social Linkz <b>%2$s</b>. Developed by team <a href=\"%3$s\" target=\"_blank\">KaizenCoders</a></span>"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:38
+msgid "Inline Content"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:43
+msgid "Configuration"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:52
+msgid "Enable Inline Content"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:60
+msgid "Social Networks"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:74
+msgid "Post Types"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:87
+#: lite/dist/scripts/blocks-share.js:413
+msgid "Button Style"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:96
+#: lite/dist/scripts/blocks-share.js:423
+msgid "Button Layout"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:105
+msgid "Button Alignment"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:114
+#: lite/dist/scripts/blocks-share.js:478
+msgid "Button Size"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:123
+#: lite/dist/scripts/blocks-share.js:517
+msgid "Button Shape"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:132
+#: lite/dist/scripts/blocks-share.js:561
+msgid "Button Color"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:140
+#: lite/dist/scripts/blocks-share.js:562
+msgid "Button Hover Color"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:148
+#: lite/dist/scripts/blocks-share.js:564
+msgid "Icon Color"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:156
+#: lite/dist/scripts/blocks-share.js:567
+msgid "Icon Hover Color"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:164
+msgid "Inverse On Hover"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:172
+#: lite/dist/scripts/blocks-share.js:535
+msgid "Button Margin"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:186
+msgid "General Options"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:194
+#: lite/dist/scripts/blocks-share.js:585
+msgid "Display"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:202
+msgid "Design"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:214
+msgid "Enable URL Shortify"
+msgstr ""
+
+#: lite/includes/Admin/admin-settings.php:224
+msgid "Link Shortening"
+msgstr ""
+
+#: lite/includes/Admin/Controllers/ToolsController.php:35
+msgid "Other Awesome Products"
+msgstr ""
+
+#: lite/includes/Admin/KC_List_Table.php:136
+msgid "Show more details"
+msgstr ""
+
+#: lite/includes/Admin/Settings.php:40
+#: lite/includes/Admin/Settings.php:41
+#: lite/dist/scripts/blocks-share.js:406
+msgid "Settings"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:85
+msgid "Supercharge Your WordPress Site With Powerpack WordPress Utilities"
+msgstr ""
+
+#: lite/includes/Admin/Templates/dashboard.php:90
+msgid "Get Started"
+msgstr ""
+
+#: lite/includes/Helper.php:877
+msgid "URL Copied"
+msgstr ""
+
+#: lite/includes/Helper.php:1201
+msgid "Posts"
+msgstr ""
+
+#: lite/includes/Helper.php:1202
+msgid "Pages"
+msgstr ""
+
+#: lite/includes/Helper.php:1221
+msgid "Above Content"
+msgstr ""
+
+#: lite/includes/Helper.php:1222
+msgid "Below Content"
+msgstr ""
+
+#: lite/includes/Helper.php:1223
+msgid "Above and Below Content"
+msgstr ""
+
+#: lite/includes/Helper.php:1224
+msgid "Don't Add To Content (Shortcode)"
+msgstr ""
+
+#: lite/includes/Helper.php:1237
+msgid "Solid"
+msgstr ""
+
+#: lite/includes/Helper.php:1252
+msgid "Auto Width"
+msgstr ""
+
+#: lite/includes/Helper.php:1267
+#: lite/includes/Helper.php:1396
+msgid "Left"
+msgstr ""
+
+#: lite/includes/Helper.php:1268
+msgid "Right"
+msgstr ""
+
+#: lite/includes/Helper.php:1269
+msgid "Center"
+msgstr ""
+
+#: lite/includes/Helper.php:1282
+#: lite/dist/scripts/blocks-share.js:490
+msgid "Small"
+msgstr ""
+
+#: lite/includes/Helper.php:1283
+#: lite/dist/scripts/blocks-share.js:501
+msgid "Medium"
+msgstr ""
+
+#: lite/includes/Helper.php:1284
+#: lite/dist/scripts/blocks-share.js:512
+msgid "Large"
+msgstr ""
+
+#: lite/includes/Helper.php:1297
+msgid "Squared"
+msgstr ""
+
+#: lite/includes/Helper.php:1378
+msgid "Click to Post"
+msgstr ""
+
+#: lite/includes/Helper.php:1379
+msgid "Click to Post Shortcode"
+msgstr ""
+
+#: lite/includes/Helper.php:1380
+msgid "Insert Shortcode"
+msgstr ""
+
+#: lite/includes/Helper.php:1382
+msgid "Post"
+msgstr ""
+
+#: lite/includes/Helper.php:1384
+msgid "Theme"
+msgstr ""
+
+#: lite/includes/Helper.php:1386
+msgid "Default (Black Background)"
+msgstr ""
+
+#: lite/includes/Helper.php:1387
+msgid "Simple (Transparent Background)"
+msgstr ""
+
+#: lite/includes/Helper.php:1388
+msgid "Simple Alternate (Gray Background)"
+msgstr ""
+
+#: lite/includes/Helper.php:1391
+msgid "Call to Action Text"
+msgstr ""
+
+#: lite/includes/Helper.php:1393
+msgid "Call to Action Position"
+msgstr ""
+
+#: lite/includes/Helper.php:1395
+msgid "Right (Default)"
+msgstr ""
+
+#: lite/includes/Helper.php:1400
+msgid "Remove Post URL"
+msgstr ""
+
+#: lite/includes/Helper.php:1401
+msgid "The current URL will not be added to the post."
+msgstr ""
+
+#: lite/includes/Helper.php:1404
+msgid "Remove Username"
+msgstr ""
+
+#: lite/includes/Helper.php:1405
+msgid "The X username saved in social-linkz will not be added to the post."
+msgstr ""
+
+#: lite/includes/Helper.php:1409
+msgid "Hide Hashtags"
+msgstr ""
+
+#: lite/includes/Helper.php:1410
+msgid "Trailing hashtags will be hidden from the display box."
+msgstr ""
+
+#: lite/includes/Helper.php:1412
+msgid "Accent Color"
+msgstr ""
+
+#: lite/includes/Helper.php:1413
+msgid "Characters Remaining"
+msgstr ""
+
+#: pro/includes/Actions.php:83
+#: lite/dist/scripts/blocks-share.js:641
+msgid "Total Share Count"
+msgstr ""
+
+#: pro/includes/Actions.php:90
+#: lite/dist/scripts/blocks-share.js:652
+msgid "Total Share Count Position"
+msgstr ""
+
+#: pro/includes/Actions.php:94
+#: lite/dist/scripts/blocks-share.js:664
+msgid "Before"
+msgstr ""
+
+#: pro/includes/Actions.php:95
+#: lite/dist/scripts/blocks-share.js:675
+msgid "After"
+msgstr ""
+
+#: pro/includes/Actions.php:101
+#: lite/dist/scripts/blocks-share.js:679
+msgid "Total Share Count Color"
+msgstr ""
+
+#: pro/includes/Actions.php:109
+#: lite/dist/scripts/blocks-share.js:687
+msgid "Network Share Counts"
+msgstr ""
+
+#: pro/includes/Actions.php:119
+#: lite/dist/scripts/blocks-share.js:707
+msgid "Text"
+msgstr ""
+
+#: pro/includes/Actions.php:122
+msgid "Share"
+msgstr ""
+
+#: pro/includes/Actions.php:127
+#: lite/dist/scripts/blocks-share.js:716
+msgid "Font Size"
+msgstr ""
+
+#: pro/includes/Actions.php:134
+#: lite/dist/scripts/blocks-share.js:730
+msgid "Font Color"
+msgstr ""
+
+#: pro/includes/Actions.php:145
+#: lite/dist/scripts/blocks-share.js:634
+msgid "Share Counts"
+msgstr ""
+
+#: pro/includes/Actions.php:153
+msgid "Call To Action"
+msgstr ""
+
+#: pro/includes/Actions.php:531
+msgid "Show In Feeds"
+msgstr ""
+
+#: pro/includes/Actions.php:539
+msgid "Button Position"
+msgstr ""
+
+#: pro/includes/Actions.php:548
+#: lite/dist/scripts/blocks-share.js:594
+msgid "Mobile Breakpoint"
+msgstr ""
+
+#: pro/includes/Actions.php:556
+#: lite/dist/scripts/blocks-share.js:609
+msgid "Hide Above Breakpoint"
+msgstr ""
+
+#: pro/includes/Actions.php:564
+#: lite/dist/scripts/blocks-share.js:621
+msgid "Hide Below Breakpoint"
+msgstr ""
+
+#: pro/includes/Actions.php:588
+#: lite/dist/scripts/blocks-share.js:549
+msgid "Show Labels"
+msgstr ""
+
+#: pro/includes/Actions.php:596
+msgid "Hide Labels On Mobile"
+msgstr ""
+
+#: pro/includes/Actions.php:618
+msgid "Inverse"
+msgstr ""
+
+#: pro/includes/Actions.php:619
+msgid "Bordered Label"
+msgstr ""
+
+#: pro/includes/Actions.php:620
+msgid "Bordered Button"
+msgstr ""
+
+#: pro/includes/Actions.php:621
+msgid "Minimal Label"
+msgstr ""
+
+#: pro/includes/Actions.php:622
+msgid "Minimal"
+msgstr ""
+
+#: pro/includes/Actions.php:640
+msgid "1 Column"
+msgstr ""
+
+#: pro/includes/Actions.php:641
+msgid "2 Columns"
+msgstr ""
+
+#: pro/includes/Actions.php:642
+msgid "3 Columns"
+msgstr ""
+
+#: pro/includes/Actions.php:643
+msgid "4 Columns"
+msgstr ""
+
+#: pro/includes/Actions.php:644
+msgid "5 Columns"
+msgstr ""
+
+#: pro/includes/Actions.php:645
+msgid "6  Columns"
+msgstr ""
+
+#: pro/includes/Actions.php:663
+msgid "Rounded"
+msgstr ""
+
+#: pro/includes/Actions.php:664
+msgid "Circular"
+msgstr ""
+
+#. translators: %s: PHP version
+#: social-linkz.php:111
+msgid "Social Linkz requires PHP version %s+, plugin is currently NOT RUNNING."
+msgstr ""
+
+#: lite/dist/scripts/blocks-share.js:116
+msgid "Social Linkz Share Buttons"
+msgstr ""
+
+#: lite/dist/scripts/blocks-share.js:117
+msgid "Add share buttons for your social network profiles."
+msgstr ""
+
+#: lite/dist/scripts/blocks-share.js:337
+msgid "Share Buttons"
+msgstr ""
+
+#: lite/dist/scripts/blocks-share.js:340
+msgid "Add Networks"
+msgstr ""
+
+#: lite/dist/scripts/blocks-share.js:393
+msgid "SHARES"
+msgstr ""
+
+#: lite/dist/scripts/blocks-share.js:434
+msgid "Alignment"
+msgstr ""
+
+#: lite/dist/scripts/blocks-share.js:559
+msgid "Colors"
+msgstr ""
+
+#: lite/dist/scripts/blocks-share.js:573
+msgid "Inverse on Hover"
+msgstr ""
+
+#: lite/dist/scripts/blocks-share.js:678
+#: lite/dist/scripts/blocks-share.js:728
+msgid "Color"
+msgstr ""
+
+#: lite/dist/scripts/blocks-share.js:700
+msgid "Call to Action"
+msgstr ""
+
+#: lite/dist/scripts/blocks-share.js:784
+msgid "Follow Network"
+msgstr ""
+
+#: lite/dist/scripts/blocks-share.js:785
+msgid "Add an icon linking to a social network profile."
+msgstr ""

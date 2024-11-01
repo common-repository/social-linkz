@@ -1,0 +1,126 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+
+
+/* sortable social networks */
+.social-linkz-social-networks {
+    margin: 0px 0px -10px 0px;
+    overflow: hidden;
+    max-width: 990px;
+}
+.social-linkz-social-networks.social-linkz-sortable li {
+    overflow: hidden;
+    float: left;
+    margin-bottom: 0px;
+}
+.social-linkz-social-networks.social-linkz-sortable li label {
+    position: relative;
+    width: 123px;
+    height: 30px;
+    font-size: 12px;
+    float: left;
+    background: #dddddd;
+    color: #aaaaaa;
+    margin: 0px 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.social-linkz-social-networks li label.active {
+    background: green;
+    color: #ffffff;
+}
+.social-linkz-social-networks.social-linkz-sortable li label svg {
+    fill: #ffffff;
+    height: 15px;
+    width: 30px;
+}
+.social-linkz-social-networks.social-linkz-sortable li label input[type="checkbox"] {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    z-index: -1;
+}
+li.social-linkz-social-network-twitter label.active {
+    background: #000;
+}
+li.social-linkz-social-network-facebook label.active {
+    background: #3b5998;
+}
+li.social-linkz-social-network-linkedin label.active {
+    background: #0077B5;
+}
+li.social-linkz-social-network-pinterest label.active {
+    background: #C92228;
+}
+li.social-linkz-social-network-buffer label.active {
+    background: #323b43;
+}
+li.social-linkz-social-network-reddit label.active {
+    background: #ff4500;
+}
+i.social-linkz-social-network-hackernews label.active {
+    background: #F0652F;
+}
+li.social-linkz-social-network-pocket label.active {
+    background: #ef4056;
+}
+li.social-linkz-social-network-whatsapp label.active {
+    background: #25d366;
+}
+li.social-linkz-social-network-tumblr label.active {
+    background: #35465c;
+}
+li.social-linkz-social-network-vkontakte label.active {
+    background: #45668e;
+}
+li.social-linkz-social-network-xing label.active {
+    background: #026466;
+}
+li.social-linkz-social-network-flipboard label.active {
+    background: #e12828;
+}
+li.social-linkz-social-network-telegram label.active {
+    background: #0088cc;
+}
+li.social-linkz-social-network-mastodon label.active {
+    background: #6364FF;
+}
+li.social-linkz-social-network-mix label.active {
+    background: #fd8235;
+}
+li.social-linkz-social-network-threads label.active {
+    background: #000;
+}
+li.social-linkz-social-network-yummly label.active {
+    background: #e16120;
+}
+li.social-linkz-social-network-sms label.active {
+    background: #218AFF;
+}
+li.social-linkz-social-network-messenger label.active {
+    background: #0078FF;
+}
+li.social-linkz-social-network-line label.active {
+    background: #00B900;
+}
+li.social-linkz-social-network-email label.active {
+    background: #319324;
+}
+li.social-linkz-social-network-print label.active {
+    background: #d34836;
+}
+li.social-linkz-social-network-copy label.active {
+    background: #816B5B;
+}
+li.social-linkz-social-network-subscribe label.active {
+    background: #7A5189;
+}
+li.social-linkz-social-network-share label.active {
+    background: #2A2A2C;
+}

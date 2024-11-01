@@ -1,0 +1,41 @@
+/* click to tweet block */
+body div.wp-block-social-linkz-click-to-tweet {
+	margin-bottom: 3px;
+}
+body div.wp-block-social-linkz-click-to-tweet div[role=textbox] {
+	pointer-events: auto;
+}
+
+/* character count */
+.social-linkz-ctt-char-count {
+	font-size: 14px;
+	font-style: italic;
+}
+.social-linkz-ctt-positive {
+	color: #aaaaaa;
+}
+.social-linkz-ctt-negative {
+	color: #ff3838;
+}
+
+/* block settings sidebar panel */
+.social-linkz-block-settings select {
+	max-width: none;
+}
+
+/* nsColorPicker */
+.social-linkz-color-picker:first-of-type {
+	border-top: 1px solid #e0e0e0;
+}
+.social-linkz-color-picker {
+	border-left: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+}
+.social-linkz-color-popover legend {
+	display: none;
+}
+
+.social-linkz-buttons.is-selected .components-button.block-list-appender__toggle {
+	display: inline-flex;
+}
